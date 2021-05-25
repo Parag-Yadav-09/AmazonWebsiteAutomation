@@ -25,7 +25,7 @@ public class TestCase_001 extends TestBase {
         hPage.clickSearchButton();
 
         //Step 2: Click on the Product
-        String productPrice = rPage.getProductPrice();
+        String productPrice = rPage.getProductPrice()+".00";
         rPage.clickSearchedProduct();        
 
         //Step 3: Verify Product Price & Click Add to Cart
